@@ -1,7 +1,7 @@
 >>>
 
 <,                  move to c2
-----------           subtract 10 (\n in ascii)
+----------          subtract 10 (\n in ascii)
 
 We do this to determine if there is data at the cell or if it is a newline and there is nothing to echo!
 
