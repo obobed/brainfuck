@@ -22,6 +22,8 @@ tape:
 
 every command should start at like t3 around
 
+t1 and c1 (and others) are interchangable, they stand for tape x and cell x
+
 explanations: 
 t0      holds 1 when prompts shoudl keep going, 0 when it should stop
 t1      holds user input
@@ -42,7 +44,7 @@ after step 2:   t1=65   t2=65   t3=0
 
 
 REMINDERS:
-DUMBASS COMMAS AND THE LIKE GET TREATED AS BRAINFUCK CODE WHEN YOU WRITE A COMMENT
+COMMAS AND THE LIKE GET TREATED AS BRAINFUCK CODE WHEN YOU WRITE A COMMENT
 
 basically this whole "os" (operable system lmfao) uses newlines as its delimiter
 

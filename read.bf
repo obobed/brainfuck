@@ -1,4 +1,4 @@
-remember, we are supposed to start at t3
+remember we are supposed to start at t3
 >>                  now at t5 the start of the buffer
 [.>]                read then next cell  repeats until 0 (aka buffer terminator)
 <[<]                slide back to guard (t4)

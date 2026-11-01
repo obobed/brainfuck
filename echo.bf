@@ -1,6 +1,5 @@
->>>
-
-<,                  move to c2
+start on t3
+<,                  move to t2
 ----------          subtract 10 (\n in ascii)
 
 We do this to determine if there is data at the cell or if it is a newline and there is nothing to echo!
@@ -16,4 +15,4 @@ We do this to determine if there is data at the cell or if it is a newline and t
 .                   print :D
 [-]                 loop until the cell is back at 0
 
->                   move back to c3
+>                   move back to t3
