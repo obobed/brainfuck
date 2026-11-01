@@ -1,0 +1,14 @@
+1. liek a shell
+2. minimal commands: echoing, reading, writing, printing, exiting, colon 3
+3. reading + writing is just to memory
+4. probably going to scaffold this in c first before bf-ing :3
+
+
+commands
+echo <text> - echos text (woah)
+read        - reads input into a buffer
+print       - prints the buffer
+write       - writes the buffer to a file!!
+exit        - quits (dang,,)
+
+c3          - floods ur terminal with :3 :3 :3 :3 :3 :3 :3 :3 :3
