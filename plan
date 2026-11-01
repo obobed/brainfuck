@@ -74,3 +74,11 @@ while the cell is not 0:
     subtract 10
 (now we are at the terminator, "\n")
 move back to t3
+
+
+banner:
+woah we love nesquik and yuri
+type h
+
+i think here we want to write the banner to the buffer (but how will we deal with the newline?)
+i need a function to convert text to ascii
