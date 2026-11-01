@@ -37,6 +37,7 @@
 
     [
         <<<[-]>>>       ZERO OUT THE RUN FLAG!!! (quits)
+        -
     ]
 
     r
