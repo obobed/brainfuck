@@ -43,3 +43,34 @@ after step 2:   t1=65   t2=65   t3=0
 
 REMINDERS:
 DUMBASS COMMAS AND THE LIKE GET TREATED AS BRAINFUCK CODE WHEN YOU WRITE A COMMENT
+
+basically this whole "os" (operable system lmfao) uses newlines as its delimiter
+
+reading
+dump the buffer
+
+
+steps:
+move to start of buffer (t5)
+read a char, check if its a newline (subtract 0 trick)
+while not a newline:
+    print it
+    move right one cell
+move left until the guard cell (0)
+set the guard to 10, print, then back to 0 (might as well, t3 is a bit far away lmao)
+move back to t3
+
+writing
+write to buffer
+
+steps:
+move to start of buffer (t5)
+read a char into the current tape cell
+subtract 10 trick (check if its not newline)
+while the cell is not 0:
+    add the 10 back
+    move right a cell
+    read the next character
+    subtract 10
+(now we are at the terminator, "\n")
+move back to t3
