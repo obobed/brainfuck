@@ -9,6 +9,8 @@ compile `main.bf` using `compiler` (build it first with your compiler of choice 
 then simply run with `./main` or the equiv in your os!
 yes "compiler" is a transpiler and it is unoptimised af :D
 
+IF YOU ARE REVIEWING AND WANT TO SEE A PURE BRAINFUCK FILE (so no includes), check out [linked.bf](linked.bf)
+
 commands (type them, then an argument separated by a space if required):
 e - echo whatever you type after it!
 w - write data to the buffer
