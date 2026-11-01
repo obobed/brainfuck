@@ -1,9 +1,0 @@
-transpiles brainfuck to c code!
-
-don't use ts in powershell it hates me
-
-usage:
-u literally just `compiler < code.bf > output.c`
-
-if you forgot how to compile stuff, replace with ur compiler of choice
-`clang compiler.c -o compiler`

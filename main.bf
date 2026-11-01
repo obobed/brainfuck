@@ -1,10 +1,10 @@
 >>>                     start t3
-{banner.bf}
+{functions/banner.bf}
 [-]
 
 <<<+                    move to t0 set run flag to 1
 [
-    {prompt.bf}         ends on t2
+    {functions/prompt.bf}         ends on t2
     [-]                 clear t2
     <,                  move to t1 read letter into it
     >,[-]               move to t2 spit out and eat extra character (TODO: maybe not a good thing?)
@@ -25,7 +25,7 @@
     +<[>-<[-]]>         set t3=1  move to t2  if t2 nonzero then t3 is set to 0 and t2 cleared
 
     [
-        {echo.bf}       hopefully the linker can superposition it here like a #include
+        {functions/echo.bf}       hopefully the linker can superposition it here like a #include
         -               erooo it out
     ]
 
@@ -47,7 +47,7 @@
     +<[>-<[-]]>         set t3=1  move to t2  if t2 nonzero then t3 is set to 0 and t2 cleared
 
     [
-        {read.bf}
+        {functions/read.bf}
         -
     ]
 
@@ -59,7 +59,7 @@
     +<[>-<[-]]>         set t3=1  move to t2  if t2 nonzero then t3 is set to 0 and t2 cleared
     
     [
-        {write.bf}
+        {functions/write.bf}
         -
     ]
     <<<                 (to check the run flag)
