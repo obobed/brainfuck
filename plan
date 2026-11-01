@@ -52,8 +52,8 @@ dump the buffer
 
 steps:
 move to start of buffer (t5)
-read a char, check if its a newline (subtract 0 trick)
-while not a newline:
+read a char, check if its not 0
+while not 0:
     print it
     move right one cell
 move left until the guard cell (0)
