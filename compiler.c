@@ -20,7 +20,7 @@ void go(FILE *f) {
 
                 FILE *include = fopen(fname, "r");
                 if (!include) {
-                    printf("can't open %s\n", fname);
+                    fprintf(stderr, "can't open %s\n", fname);
                     break;
                 }
 
