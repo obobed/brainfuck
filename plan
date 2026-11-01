@@ -20,6 +20,8 @@ tape:
 
 0 run? | 1 typed char | 2, 3 temps | 4 guard | 5+ buffer!
 
+every command should start at like t3 around
+
 explanations: 
 t0      holds 1 when prompts shoudl keep going, 0 when it should stop
 t1      holds user input
@@ -28,7 +30,7 @@ t4      stays 0 forever, is boundary for where the buffer starts (the square bra
 t5      where read stores `line`, the newline in `line` also helpfully acts as a guard (t4-like) for any square bracket loops :D
 
 TEMPS:
-**MOVING VALUES IN BRAINFUCK DESTROYES THE ORIGINAL**
+**MOVING VALUES IN BRAINFUCK DESTROYES THE ORIGINAL :c**
 
 works like this
 1. t1 is emptied into BOTH t2 and t3
@@ -37,3 +39,7 @@ works like this
 start:          t1=65   t2=0    t3=0
 after step 1:   t1=0    t2=65   t3=65
 after step 2:   t1=65   t2=65   t3=0
+
+
+REMINDERS:
+DUMBASS COMMAS AND THE LIKE GET TREATED AS BRAINFUCK CODE WHEN YOU WRITE A COMMENT
