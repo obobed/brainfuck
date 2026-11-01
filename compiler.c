@@ -1,4 +1,4 @@
-// compiles(?) brainfuck to c code
+// transpiles brainfuck to c code
 
 #include <stdio.h>
 
